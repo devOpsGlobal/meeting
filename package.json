@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "npx serve -s dist -l $PORT",
+    "start": "react-scripts start",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -22,7 +22,6 @@
     "react-router-dom": "^7.13.0",
     "redux": "^5.0.1",
     "socket.io-client": "^4.8.3",
-    "serve": "14.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
